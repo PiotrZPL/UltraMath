@@ -1,0 +1,15 @@
+{
+    "name": "ultramath.piotrzpl",
+    "description": "An app for all your math needs",
+    "architecture": "@CLICK_ARCH@",
+    "title": "UltraMath",
+    "hooks": {
+        "ultramath": {
+            "apparmor": "ultramath.apparmor",
+            "desktop":  "ultramath.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Piotr Lange <zpl20052020@protonmail.ch>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
