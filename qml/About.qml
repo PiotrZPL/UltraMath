@@ -70,7 +70,7 @@ Page {
                         anchors.horizontalCenter: parent.horizontalCenter
                         radius: "medium"
                         image: Image{
-                            source: "../assets/logo.svg"
+                            source: "../assets/logo.png"
                         }
                     }
 

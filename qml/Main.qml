@@ -44,6 +44,16 @@ MainView {
         id: aboutPage
         About {}
     }
+
+	Component {
+        id: lcmPage
+        LCM {}
+    }
+
+	Component {
+        id: gcfPage
+    	GCF {}
+    }
     
     PageStack{
         id: pageStack
@@ -115,7 +125,7 @@ MainView {
 	                    color_text : (root.settings.theme == "Ambiance") ? "black" : "white"
 	                    height: parent.height / parent.rows
 	                    width: parent.width / parent.columns
-	                    onClicked: {textField.text=textField.text.substr(0, textField.text.length-1);
+	                    onClicked: {pageStack.push(gcfPage);
 	                    }
 	            }
 				MainButton {
@@ -124,7 +134,7 @@ MainView {
 	                    color_text : (root.settings.theme == "Ambiance") ? "black" : "white"
 	                    height: parent.height / parent.rows
 	                    width: parent.width / parent.columns
-	                    onClicked: {textField.text=textField.text.substr(0, textField.text.length-1);
+	                    onClicked: {pageStack.push(lcmPage);
 	                    }
 	            }
 				MainButton {

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ultramath.piotrzpl\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-21 14:43+0000\n"
+"POT-Creation-Date: 2022-02-22 00:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../qml/About.qml:27 ../qml/About.qml:37 ../qml/Main.qml:68
+#: ../qml/About.qml:27 ../qml/About.qml:37 ../qml/Main.qml:78
 msgid "About"
 msgstr ""
 
@@ -43,34 +43,46 @@ msgstr ""
 msgid "Huge thanks to:"
 msgstr ""
 
-#: ../qml/Main.qml:60 ultramath.desktop.in.h:1
-msgid "UltraMath"
-msgstr ""
-
-#: ../qml/Main.qml:63
-msgid "Theme"
-msgstr ""
-
-#: ../qml/Main.qml:86
-msgid "Binary number calculator"
-msgstr ""
-
-#: ../qml/Main.qml:95
-msgid "Prime number check"
-msgstr ""
-
-#: ../qml/Main.qml:104
-msgid "Graphing"
-msgstr ""
-
-#: ../qml/Main.qml:113
+#: ../qml/GCF.qml:28 ../qml/Main.qml:123
 msgid "GCF calculator"
 msgstr ""
 
-#: ../qml/Main.qml:122
+#: ../qml/GCF.qml:75
+msgid "Find GCF"
+msgstr ""
+
+#: ../qml/GCF.qml:113 ../qml/LCM.qml:121
+msgid "Enter numbers separated by points"
+msgstr ""
+
+#: ../qml/LCM.qml:28 ../qml/Main.qml:132
 msgid "LCM calculator"
 msgstr ""
 
-#: ../qml/Main.qml:131
+#: ../qml/LCM.qml:75
+msgid "Find LCM"
+msgstr ""
+
+#: ../qml/Main.qml:70 ultramath.desktop.in.h:1
+msgid "UltraMath"
+msgstr ""
+
+#: ../qml/Main.qml:73
+msgid "Theme"
+msgstr ""
+
+#: ../qml/Main.qml:96
+msgid "Binary number calculator"
+msgstr ""
+
+#: ../qml/Main.qml:105
+msgid "Prime number check"
+msgstr ""
+
+#: ../qml/Main.qml:114
+msgid "Graphing"
+msgstr ""
+
+#: ../qml/Main.qml:141
 msgid "Base converter"
 msgstr ""
