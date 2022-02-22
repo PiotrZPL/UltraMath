@@ -120,7 +120,7 @@ Page {
                         fontSize: "small"
                         horizontalAlignment: Text.AlignHCenter
                         linkColor: UbuntuColors.blue
-                        text: i18n.tr("Report bugs on %1").arg("<a href=\"https://github.com/PiotrZPL/BinCalc/issues\">github.com</a>")
+                        text: i18n.tr("Report bugs on %1").arg("<a href=\"https://github.com/PiotrZPL/UltraMath/issues\">github.com</a>")
                         onLinkActivated: Qt.openUrlExternally(link)
                     }
                 }
